@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario de registro</h1>
+    </main>
+    <div>
+        <a href="index.html">
+            <button>Inicio</button>
+        </a>
+    </div>
+    <form>
+        <label for="nombre_usuario">Nombre de usuario:</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario" required><br><br>
+    
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+    
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="mexico">México</option>
+            <option value="usa">USA</option>
+            <option value="espana">España</option>
+        </select><br><br>
+    
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+    
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br><br>
+    
+        <label for="mayoria">Soy mayor de edad:</label>
+        <input type="checkbox" id="mayoria" name="mayoria" required><br><br>
+    
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+    </form>
+</body>
+</html>
